@@ -1,0 +1,37 @@
+# Copyright (C) 2021 Minimalist-Social-Links-Widget
+# This file is distributed under the same license as the Minimalist-Social-Links-Widget package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Minimalist-Social-Links-Widget\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Armand Philippot <contact@armandphilippot.com>\n"
+"Last-Translator: Armand Philippot <contact@armandphilippot.com>\n"
+"Report-Msgid-Bugs-To: https://github.com/ArmandPhilippot/minimalist-social-links-widget/issues\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: class-minimalist-social-links-widget.php:60
+msgid "Display social links as a WordPress Widget."
+msgstr ""
+
+#: class-minimalist-social-links-widget.php:65, public/partials/minimalist-social-links-widget-public-display.php:17
+msgid "Minimalist Social Links"
+msgstr ""
+
+#: admin/partials/minimalist-social-links-widget-admin-display.php:29
+msgid "Title:"
+msgstr ""
+
+#: admin/partials/minimalist-social-links-widget-admin-display.php:38
+msgid "Choose the profiles you want to display:"
+msgstr ""
+
+#: admin/partials/minimalist-social-links-widget-admin-display.php:61
+msgid "Enter your profile link for each selected websites:"
+msgstr ""

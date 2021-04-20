@@ -138,10 +138,14 @@ class Minimalist_Social_Links_Widget extends \WP_Widget {
 	 * @param string $hook_suffix The current admin page.
 	 */
 	public function mslwidget_enqueue_admin_styles( $hook_suffix ) {
+		if ( 'widgets.php' !== $hook_suffix ) {
+			return;
+		}
+
 		$styles_url  = plugins_url( 'admin/css/style.min.css', __FILE__ );
 		$styles_path = plugin_dir_path( __FILE__ ) . 'admin/css/style.min.css';
 
-		if ( file_exists( $styles_path ) && 'widgets.php' === $hook_suffix ) {
+		if ( file_exists( $styles_path ) ) {
 			wp_register_style( 'mslwidget', $styles_url, array(), MSLWIDGET_VERSION );
 
 			wp_enqueue_style( 'mslwidget' );
@@ -158,12 +162,35 @@ class Minimalist_Social_Links_Widget extends \WP_Widget {
 	 * @param string $hook_suffix The current admin page.
 	 */
 	public function mslwidget_enqueue_admin_scripts( $hook_suffix ) {
+		if ( 'widgets.php' !== $hook_suffix ) {
+			return;
+		}
+
 		$scripts_url  = plugins_url( 'admin/js/scripts.min.js', __FILE__ );
 		$scripts_path = plugin_dir_path( __FILE__ ) . 'admin/js/scripts.min.js';
 
-		if ( file_exists( $scripts_path && 'widgets.php' === $hook_suffix ) ) {
+		if ( file_exists( $scripts_path ) ) {
 			wp_register_script( 'mslwidget-scripts', $scripts_url, array(), MSLWIDGET_VERSION, true );
 			wp_enqueue_script( 'mslwidget-scripts' );
+		}
+	}
+
+	/**
+	 * Retrieve the social profiles list.
+	 *
+	 * @since 0.0.1
+	 *
+	 * @return array An array of social profiles objects.
+	 */
+	public function mslwidget_get_social_profiles() {
+		$social_profiles_file     = plugin_dir_url( __FILE__ ) . 'admin/json/social-profiles.json';
+		$social_profiles_response = wp_remote_get( $social_profiles_file );
+
+		if ( ! is_wp_error( $social_profiles_response ) && isset( $social_profiles_response['response']['code'] ) && 200 === $social_profiles_response['response']['code'] ) {
+			$social_profiles_body = wp_remote_retrieve_body( $social_profiles_response );
+			$social_profiles      = json_decode( $social_profiles_body );
+
+			return $social_profiles;
 		}
 	}
 
@@ -201,8 +228,15 @@ class Minimalist_Social_Links_Widget extends \WP_Widget {
 	 * @return array Updated settings to save.
 	 */
 	public function update( $new_instance, $old_instance ) {
+		$social_profiles   = $this->mslwidget_get_social_profiles();
 		$instance          = $old_instance;
 		$instance['title'] = sanitize_text_field( $new_instance['title'] );
+
+		foreach ( $social_profiles as $social_profile ) {
+			$instance['selected_social_profiles'][ $social_profile->id ] = ( ! empty( $new_instance['selected_social_profiles'][ $social_profile->id ] ) ? 1 : 0 );
+
+			$instance [ $social_profile->id ] = sanitize_text_field( $new_instance[ $social_profile->id ] );
+		}
 
 		return $instance;
 	}
