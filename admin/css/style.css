@@ -1,3 +1,148 @@
 .mslwidget__hidden {
 	display: none;
 }
+
+.mslwidget__legend {
+	font-weight: 700;
+}
+
+.mslwidget__list--checkboxes {
+	align-items: center;
+	display: flex;
+	flex-flow: row wrap;
+	gap: 0.3em;
+}
+
+.mslwidget__list--checkboxes .mslwidget__label {
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	height: 3em;
+	width: 3em;
+}
+
+.mslwidget__list--checkboxes .mslwidget__checkbox {
+	cursor: pointer;
+	left: calc(3em / 2 - 8px);
+	opacity: 0;
+	position: absolute;
+	top: calc(3em / 2);
+	z-index: 2;
+}
+
+.mslwidget__list--checkboxes .mslwidget__checkbox:checked ~ .mslwidget__label {
+	position: relative;
+}
+
+.mslwidget__list--checkboxes .mslwidget__checkbox:checked ~ .mslwidget__label::before {
+	background: #0000008a;
+	color: #bce271;
+	content: "\2713";
+	display: block;
+	font-size: 2.5em;
+	text-align: center;
+	text-shadow: 2px 2px 0 #000000;
+}
+
+.mslwidget__list--inputs {
+	align-items: center;
+	display: grid;
+	gap: 1em;
+	grid-template-columns: max-content 1fr;
+}
+
+.mslwidget__item {
+	position: relative;
+}
+
+.mslwidget__item--grid {
+	display: contents;
+}
+
+.mslwidget__label--dailymotion {
+	background-image: url("../../assets/images/dailymotion.svg");
+}
+
+.mslwidget__label--diaspora {
+	background-image: url("../../assets/images/diaspora.svg");
+}
+
+.mslwidget__label--facebook {
+	background-image: url("../../assets/images/facebook.svg");
+}
+
+.mslwidget__label--github {
+	background-image: url("../../assets/images/github.svg");
+}
+
+.mslwidget__label--gitlab {
+	background-image: url("../../assets/images/gitlab.svg");
+}
+
+.mslwidget__label--gog {
+	background-image: url("../../assets/images/gog.svg");
+}
+
+.mslwidget__label--instagram {
+	background-image: url("../../assets/images/instagram.svg");
+}
+
+.mslwidget__label--linkedin {
+	background-image: url("../../assets/images/linkedin.svg");
+}
+
+.mslwidget__label--mastodon {
+	background-image: url("../../assets/images/mastodon.svg");
+}
+
+.mslwidget__label--peertube {
+	background-image: url("../../assets/images/peertube.svg");
+}
+
+.mslwidget__label--pinterest {
+	background-image: url("../../assets/images/pinterest.svg");
+}
+
+.mslwidget__label--reddit {
+	background-image: url("../../assets/images/reddit.svg");
+}
+
+.mslwidget__label--rss {
+	background-image: url("../../assets/images/rss.svg");
+}
+
+.mslwidget__label--skype {
+	background-image: url("../../assets/images/skype.svg");
+}
+
+.mslwidget__label--snapchat {
+	background-image: url("../../assets/images/snapchat.svg");
+}
+
+.mslwidget__label--soundcloud {
+	background-image: url("../../assets/images/soundcloud.svg");
+}
+
+.mslwidget__label--steam {
+	background-image: url("../../assets/images/steam.svg");
+}
+
+.mslwidget__label--telegram {
+	background-image: url("../../assets/images/telegram.svg");
+}
+
+.mslwidget__label--twitter {
+	background-image: url("../../assets/images/twitter.svg");
+}
+
+.mslwidget__label--viadeo {
+	background-image: url("../../assets/images/viadeo.svg");
+}
+
+.mslwidget__label--vk {
+	background-image: url("../../assets/images/vk.svg");
+}
+
+.mslwidget__label--youtube {
+	background-image: url("../../assets/images/youtube.svg");
+}

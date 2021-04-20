@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="132.29167mm"
+   height="132.29163mm"
+   viewBox="0 0 132.29167 132.29163"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="Dailymotion.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient825">
+      <stop
+         style="stop-color:#00b4fc;stop-opacity:1"
+         offset="0"
+         id="stop821" />
+      <stop
+         style="stop-color:#00c8f6;stop-opacity:1"
+         offset="1"
+         id="stop823" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient825"
+       id="linearGradient827"
+       x1="82.852379"
+       y1="123.81132"
+       x2="215.14404"
+       y2="123.81132"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-396"
+     inkscape:cy="155.42856"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1024"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-82.852381,-57.665508)">
+    <path
+       inkscape:connector-curvature="0"
+       style="clip-rule:evenodd;fill:url(#linearGradient827);fill-opacity:1;fill-rule:evenodd;stroke-width:1.03352857"
+       d="m 160.45589,120.02757 c -9.66555,0 -17.14105,7.86207 -17.14105,17.14106 0,9.66558 7.47449,17.01191 17.91413,17.01191 8.76332,0 16.10961,-7.21715 16.10961,-16.75453 0,-9.92394 -7.34629,-17.39844 -16.88269,-17.39844 z m 36.47222,52.19527 H 177.2094 v -7.73285 c -6.0575,5.92832 -12.24316,8.11938 -20.49175,8.11938 -8.37677,0 -15.59389,-2.7068 -21.65141,-8.11938 -7.99021,-7.08796 -12.11502,-16.368 -12.11502,-27.1932 0,-9.92394 3.86643,-18.8164 11.08356,-25.77621 6.44405,-6.31484 14.3061,-9.53738 23.06939,-9.53738 8.37676,0 14.82082,2.83496 19.46031,8.76328 V 80.590194 l 20.36258,-4.218866 V 172.22284 Z M 82.852381,189.95714 H 215.14405 V 57.665508 H 82.852381 Z"
+       id="Dailymotion_1_" />
+  </g>
+</svg>

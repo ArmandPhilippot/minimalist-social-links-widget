@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="132.29167mm"
+   height="132.29167mm"
+   viewBox="0 0 132.29167 132.29167"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="LinkedIn-Square-Blue-Background.svg"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="173.78978"
+     inkscape:cy="164.50371"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1024"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(127.25583,30.827798)">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#0a66c2;stroke-width:2.04185653"
+       id="Path_2520"
+       data-name="Path 2520"
+       d="M -14.537096,81.89365 H -34.138583 V 51.195851 c 0,-7.320189 -0.130419,-16.74352 -10.194856,-16.74352 -10.209056,0 -11.771079,7.975634 -11.771079,16.210581 V 81.891613 H -75.706004 V 18.764472 h 18.817427 v 8.626998 h 0.263153 c 3.836985,-6.560704 10.97139,-10.479146 18.566312,-10.197208 19.866956,0 23.529964,13.068107 23.529964,30.068901 z M -97.822963,10.135438 c -10.134757,0.0019 -15.210677,-12.2500722 -8.046497,-19.4171115 7.164172,-7.1670395 19.417554,-2.0954115 19.419372,8.0396914 0.0011,6.2824208 -5.090671,11.3762541 -11.372875,11.3774201 m 9.800743,71.758212 h -19.62194 V 18.764472 h 19.62194 z M -4.7649065,-30.818792 -127.25583,-30.82779 V 101.46388 H 5.0358367 l 0,-132.29167"
+       sodipodi:nodetypes="ccsssccccccccccssccccccccccc" />
+  </g>
+</svg>

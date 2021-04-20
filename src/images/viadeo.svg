@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="600"
+   height="600"
+   viewBox="0 0 158.74999 158.75"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="Viadeo-Square-Orange-Background.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-708.07018"
+     inkscape:cy="-44.571449"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1024"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Background">
+    <rect
+       style="opacity:1;fill:#f07355;fill-opacity:1;stroke:none;stroke-width:0.70292896;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect826"
+       width="158.75"
+       height="158.75"
+       x="-1.3100632e-14"
+       y="0" />
+  </g>
+  <g
+     inkscape:label="Logo"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(90.090955,21.70953)">
+    <g
+       style="display:inline"
+       id="Viadeo"
+       transform="matrix(1.0335286,0,0,1.0335286,96.903586,-21.93375)">
+      <path
+         d="m -55.87525,15.921949 c -5.392,11.515 -15.368,13.635 -15.368,13.635 -9.976,2.539 -13.466,6.412 -13.466,6.412 -9.976,10.076 -2.11,22.297 -2.11,22.297 21.54,-4.92 29.406,-22.716 29.406,-22.716 -0.964,11.96 -26.593,26.066 -26.593,26.066 8.491,8.348 16.592,7.328 21.931,4.135 7.085,-4.24 10.497,-13.53 10.497,-13.53 6.877,-20.623 -4.297,-36.299 -4.297,-36.299 z m -35.319,34.859 c 0.234,3.533 4.115,66.473001 -29.042,79.087001 0,0 3.047,0.576 6.486,0.419 0,0 42.195,-26.746 22.843,-78.642001 -10e-4,0 -0.079,-0.314 -0.287,-0.864 z m -17.66,-37.764 c 10.601,17.901 16.357,33.943 17.66,37.764 v -0.157 c -2.605,-27.584 -17.66,-37.607 -17.66,-37.607 z"
+         id="path4"
+         style="clip-rule:evenodd;fill:#ffffff;fill-opacity:1;fill-rule:evenodd"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m -80.30725,95.348949 c 0,6.359001 -1.511,12.274001 -4.532,17.770001 -3.021,5.496 -7.085,9.735 -12.242,12.719 -5.131,2.983 -10.783,4.475 -16.904,4.475 -6.147,0 -11.773,-1.492 -16.904,-4.475 -5.131,-2.983 -9.22,-7.223 -12.242,-12.719 -3.021,-5.496 -4.532,-11.41 -4.532,-17.770001 0,-9.84 3.308,-18.241 9.924,-25.202 6.616,-6.935 14.534,-10.416 23.754,-10.416 4.376,0 8.465,0.811 12.268,2.382 0.391,-4.03 1.797,-7.773 3.334,-10.835 -4.793,-1.753 -9.976,-2.617 -15.576,-2.617 -13.31,0 -24.327,4.92 -33.053,14.786 -7.918,8.924 -11.903,19.497 -11.903,31.64 0,12.274001 4.193,23.004001 12.554,32.164001 8.387,9.186 19.171,13.766 32.376,13.766 13.153,0 23.937,-4.58 32.298,-13.766 8.387,-9.186 12.554,-19.916 12.554,-32.164001 0,-6.569 -1.146,-12.667 -3.438,-18.267 -3.855,2.382 -7.501,3.612 -10.523,4.266 1.876,4.345 2.787,9.108 2.787,14.263 z"
+         id="path6"
+         inkscape:connector-curvature="0"
+         style="clip-rule:evenodd;fill:#ffffff;fill-opacity:1;fill-rule:evenodd" />
+    </g>
+  </g>
+</svg>

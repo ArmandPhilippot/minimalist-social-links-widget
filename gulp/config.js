@@ -81,12 +81,12 @@ module.exports = {
 	},
 	fonts: {
 		src: 'src/fonts/**/*',
-		dest: 'public/fonts/',
+		dest: 'assets/fonts/',
 		watch: 'src/fonts/**/*',
 	},
 	images: {
 		src: 'src/images/**/*',
-		dest: 'public/images/',
+		dest: 'assets/images/',
 		watch: 'src/images/**/*',
 		imageminOptions: {
 			gif: {
