@@ -1,0 +1,62 @@
+[
+	{
+		"id": "diaspora",
+		"name": "Diaspora*"
+	},
+	{
+		"id": "facebook",
+		"name": "Facebook"
+	},
+	{
+		"id": "github",
+		"name": "Github"
+	},
+	{
+		"id": "gitlab",
+		"name": "Gitlab"
+	},
+	{
+		"id": "gog",
+		"name": "GOG"
+	},
+	{
+		"id": "linkedin",
+		"name": "LinkedIn"
+	},
+	{
+		"id": "mastodon",
+		"name": "Mastodon"
+	},
+	{
+		"id": "peertube",
+		"name": "Peertube"
+	},
+	{
+		"id": "reddit",
+		"name": "Reddit"
+	},
+	{
+		"id": "rss",
+		"name": "Rss"
+	},
+	{
+		"id": "steam",
+		"name": "Steam"
+	},
+	{
+		"id": "twitter",
+		"name": "Twitter"
+	},
+	{
+		"id": "viadeo",
+		"name": "Viadeo"
+	},
+	{
+		"id": "vk",
+		"name": "VK"
+	},
+	{
+		"id": "youtube",
+		"name": "Youtube"
+	}
+]
