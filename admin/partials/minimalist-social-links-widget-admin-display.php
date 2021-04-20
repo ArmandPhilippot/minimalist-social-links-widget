@@ -34,22 +34,29 @@ foreach ( $mslwidget_social_profiles_list as $mslwidget_social_profile ) {
 		type="text" value="<?php echo esc_attr( $mslwidget_title ); ?>" />
 </p>
 <div class="mslwidget__settings">
-	<fieldset class="mslwidget__fieldset">
+	<fieldset class="mslwidget__fieldset mslwidget__fieldset--checkboxes">
 		<legend class="mslwidget__legend"><?php esc_html_e( 'Choose the profiles you want to display:', 'msl-widget' ); ?></legend>
 		<ul class="mslwidget__list mslwidget__list--checkboxes">
 		<?php
 		foreach ( $mslwidget_social_profiles_list as $mslwidget_social_profile ) {
 			?>
 			<li class="mslwidget__item">
-				<label for="<?php echo esc_attr( $this->get_field_id( 'select_' . $mslwidget_social_profile->id ) ); ?>">
-					<input
-						type="checkbox"
-						class="mslwidget__checkbox <?php echo esc_attr( $mslwidget_social_profile->id ); ?>"
-						name="<?php echo esc_attr( $this->get_field_name( 'selected_social_profiles' ) . '[' . $mslwidget_social_profile->id . ']' ); ?>"
-						id="<?php echo esc_attr( $this->get_field_id( 'select_' . $mslwidget_social_profile->id ) ); ?>"
-						<?php array_key_exists( $mslwidget_social_profile->id, $mslwidget_social_profiles ) ? checked( $mslwidget_social_profiles[ $mslwidget_social_profile->id ] ) : ''; ?>
-					/>
-					<?php echo esc_html( $mslwidget_social_profile->name ); ?>
+				<input
+					type="checkbox"
+					class="mslwidget__checkbox <?php echo esc_attr( $mslwidget_social_profile->id ); ?>"
+					name="<?php echo esc_attr( $this->get_field_name( 'selected_social_profiles' ) . '[' . $mslwidget_social_profile->id . ']' ); ?>"
+					id="<?php echo esc_attr( $this->get_field_id( 'select_' . $mslwidget_social_profile->id ) ); ?>"
+					<?php array_key_exists( $mslwidget_social_profile->id, $mslwidget_social_profiles ) ? checked( $mslwidget_social_profiles[ $mslwidget_social_profile->id ] ) : ''; ?>
+					title="<?php echo esc_attr( $mslwidget_social_profile->name ); ?>"
+				/>
+				<label
+					for="<?php echo esc_attr( $this->get_field_id( 'select_' . $mslwidget_social_profile->id ) ); ?>"
+					class="mslwidget__label <?php echo 'mslwidget__label--' . esc_attr( $mslwidget_social_profile->id ); ?>"
+					title="<?php echo esc_attr( $mslwidget_social_profile->name ); ?>"
+				>
+					<span class="screen-reader-text">
+						<?php echo esc_html( $mslwidget_social_profile->name ); ?>
+					</span>
 				</label>
 			</li>
 			<?php
@@ -57,13 +64,13 @@ foreach ( $mslwidget_social_profiles_list as $mslwidget_social_profile ) {
 		?>
 		</ul>
 	</fieldset>
-	<fieldset class="mslwidget__fieldset">
+	<fieldset class="mslwidget__fieldset mslwidget__fieldset--inputs">
 		<legend class="mslwidget__legend"><?php esc_html_e( 'Enter your profile link for each selected websites:', 'msl-widget' ); ?></legend>
 		<ul class="mslwidget__list mslwidget__list--inputs">
 		<?php
 		foreach ( $mslwidget_social_profiles_list as $mslwidget_social_profile ) {
 			?>
-			<li class="mslwidget__item">
+			<li class="mslwidget__item mslwidget__item--grid">
 				<label for="<?php echo esc_attr( $this->get_field_id( $mslwidget_social_profile->id ) ); ?>">
 					<?php echo esc_html( $mslwidget_social_profile->name ); ?>
 				</label>
