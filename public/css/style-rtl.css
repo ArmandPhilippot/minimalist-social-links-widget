@@ -76,7 +76,7 @@ Domain Path: /languages/
 }
 
 .mslwidget__logo--rss {
-	background-image: url("../../assets/images/rss.svg");
+	background-image: url("../../assets/images/feed.svg");
 }
 
 .mslwidget__logo--skype {
@@ -124,32 +124,21 @@ Domain Path: /languages/
 	padding: 0;
 }
 
-.mslwidget__logo {
-	border: 2px solid transparent;
-}
-
 .mslwidget__logo::before {
 	background: transparent;
 	content: "";
 	display: block;
 	height: 100%;
+	transition: all 0.3s ease-in-out 0s;
 	width: 100%;
 }
 
-.mslwidget__link:hover .mslwidget__logo, .mslwidget__link:focus .mslwidget__logo {
-	border-color: #0000005a;
-}
-
 .mslwidget__link:hover .mslwidget__logo::before, .mslwidget__link:focus .mslwidget__logo::before {
-	background: #0000002a;
-}
-
-.mslwidget__link:active .mslwidget__logo {
-	border-color: #0000003a;
+	background: #ffffff2a;
 }
 
 .mslwidget__link:active .mslwidget__logo::before {
-	background: #0000001a;
+	background: transparent;
 }
 
 .mslwidget .screen-reader-text {
