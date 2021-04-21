@@ -1,0 +1,101 @@
+.mslwidget__logo {
+	display: block;
+	width: 4em;
+	height: 4em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 0.3s ease-in-out 0s;
+
+	@media screen and (pointer: fine) {
+		width: 3em;
+		height: 3em;
+	}
+
+	&--dailymotion {
+		background-image: url("../../assets/images/dailymotion.svg");
+	}
+
+	&--diaspora {
+		background-image: url("../../assets/images/diaspora.svg");
+	}
+
+	&--facebook {
+		background-image: url("../../assets/images/facebook.svg");
+	}
+
+	&--github {
+		background-image: url("../../assets/images/github.svg");
+	}
+
+	&--gitlab {
+		background-image: url("../../assets/images/gitlab.svg");
+	}
+
+	&--gog {
+		background-image: url("../../assets/images/gog.svg");
+	}
+
+	&--instagram {
+		background-image: url("../../assets/images/instagram.svg");
+	}
+
+	&--linkedin {
+		background-image: url("../../assets/images/linkedin.svg");
+	}
+
+	&--mastodon {
+		background-image: url("../../assets/images/mastodon.svg");
+	}
+
+	&--peertube {
+		background-image: url("../../assets/images/peertube.svg");
+	}
+
+	&--pinterest {
+		background-image: url("../../assets/images/pinterest.svg");
+	}
+
+	&--reddit {
+		background-image: url("../../assets/images/reddit.svg");
+	}
+
+	&--rss {
+		background-image: url("../../assets/images/rss.svg");
+	}
+
+	&--skype {
+		background-image: url("../../assets/images/skype.svg");
+	}
+
+	&--snapchat {
+		background-image: url("../../assets/images/snapchat.svg");
+	}
+
+	&--soundcloud {
+		background-image: url("../../assets/images/soundcloud.svg");
+	}
+
+	&--steam {
+		background-image: url("../../assets/images/steam.svg");
+	}
+
+	&--telegram {
+		background-image: url("../../assets/images/telegram.svg");
+	}
+
+	&--twitter {
+		background-image: url("../../assets/images/twitter.svg");
+	}
+
+	&--viadeo {
+		background-image: url("../../assets/images/viadeo.svg");
+	}
+
+	&--vk {
+		background-image: url("../../assets/images/vk.svg");
+	}
+
+	&--youtube {
+		background-image: url("../../assets/images/youtube.svg");
+	}
+}

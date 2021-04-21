@@ -51,7 +51,7 @@ foreach ( $mslwidget_social_profiles_list as $mslwidget_social_profile ) {
 				/>
 				<label
 					for="<?php echo esc_attr( $this->get_field_id( 'select_' . $mslwidget_social_profile->id ) ); ?>"
-					class="mslwidget__label <?php echo 'mslwidget__label--' . esc_attr( $mslwidget_social_profile->id ); ?>"
+					class="mslwidget__label mslwidget__logo <?php echo 'mslwidget__logo--' . esc_attr( $mslwidget_social_profile->id ); ?>"
 					title="<?php echo esc_attr( $mslwidget_social_profile->name ); ?>"
 				>
 					<span class="screen-reader-text">

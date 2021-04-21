@@ -8,110 +8,50 @@
 // Theme info
 //=============================================================================
 @import "base/widget_info";
+@import "logo/logo";
 
 .mslwidget {
 	&__list {
 		display: flex;
 		flex-flow: row wrap;
-		gap: 0.5em;
+		gap: 0.3em;
 		list-style-type: none;
 		padding: 0;
 		margin: 0;
 	}
 
-	&__profile-logo {
-		display: block;
-		width: 3em;
-		height: 3em;
-		background-size: cover;
-		background-repeat: no-repeat;
+	&__logo {
+		border: 2px solid transparent;
 
-		&--dailymotion {
-			background-image: url("../../assets/images/dailymotion.svg");
+		&::before {
+			display: block;
+			content: "";
+			background: transparent;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	&__link {
+		&:hover,
+		&:focus {
+			.mslwidget__logo {
+				border-color: #0000005a;
+
+				&::before {
+					background: #0000002a;
+				}
+			}
 		}
 
-		&--diaspora {
-			background-image: url("../../assets/images/diaspora.svg");
-		}
+		&:active {
+			.mslwidget__logo {
+				border-color: #0000003a;
 
-		&--facebook {
-			background-image: url("../../assets/images/facebook.svg");
-		}
-
-		&--github {
-			background-image: url("../../assets/images/github.svg");
-		}
-
-		&--gitlab {
-			background-image: url("../../assets/images/gitlab.svg");
-		}
-
-		&--gog {
-			background-image: url("../../assets/images/gog.svg");
-		}
-
-		&--instagram {
-			background-image: url("../../assets/images/instagram.svg");
-		}
-
-		&--linkedin {
-			background-image: url("../../assets/images/linkedin.svg");
-		}
-
-		&--mastodon {
-			background-image: url("../../assets/images/mastodon.svg");
-		}
-
-		&--peertube {
-			background-image: url("../../assets/images/peertube.svg");
-		}
-
-		&--pinterest {
-			background-image: url("../../assets/images/pinterest.svg");
-		}
-
-		&--reddit {
-			background-image: url("../../assets/images/reddit.svg");
-		}
-
-		&--rss {
-			background-image: url("../../assets/images/rss.svg");
-		}
-
-		&--skype {
-			background-image: url("../../assets/images/skype.svg");
-		}
-
-		&--snapchat {
-			background-image: url("../../assets/images/snapchat.svg");
-		}
-
-		&--soundcloud {
-			background-image: url("../../assets/images/soundcloud.svg");
-		}
-
-		&--steam {
-			background-image: url("../../assets/images/steam.svg");
-		}
-
-		&--telegram {
-			background-image: url("../../assets/images/telegram.svg");
-		}
-
-		&--twitter {
-			background-image: url("../../assets/images/twitter.svg");
-		}
-
-		&--viadeo {
-			background-image: url("../../assets/images/viadeo.svg");
-		}
-
-		&--vk {
-			background-image: url("../../assets/images/vk.svg");
-		}
-
-		&--youtube {
-			background-image: url("../../assets/images/youtube.svg");
+				&::before {
+					background: #0000001a;
+				}
+			}
 		}
 	}
 
