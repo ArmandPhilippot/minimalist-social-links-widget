@@ -3,6 +3,24 @@
 		display: none;
 	}
 
+	&__help {
+		border: 1px solid #ccc;
+		color: #666;
+		font-size: 13px;
+		margin-bottom: 1em;
+		padding: 0 1em;
+
+		ul {
+			list-style-type: circle;
+			padding-left: 1em;
+		}
+
+		li,
+		li code {
+			font-size: 11px;
+		}
+	}
+
 	&__legend {
 		font-weight: 700;
 	}

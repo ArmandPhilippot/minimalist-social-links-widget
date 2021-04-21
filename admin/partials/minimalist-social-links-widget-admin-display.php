@@ -65,14 +65,37 @@ foreach ( $mslwidget_social_profiles_list as $mslwidget_social_profile ) {
 		</ul>
 	</fieldset>
 	<fieldset class="mslwidget__fieldset mslwidget__fieldset--inputs">
-		<legend class="mslwidget__legend"><?php esc_html_e( 'Enter your profile link for each selected websites:', 'msl-widget' ); ?></legend>
+		<legend class="mslwidget__legend"><?php esc_html_e( 'Enter your username for each selected websites:', 'msl-widget' ); ?></legend>
 		<ul class="mslwidget__list mslwidget__list--inputs">
 		<?php
 		foreach ( $mslwidget_social_profiles_list as $mslwidget_social_profile ) {
 			?>
 			<li class="mslwidget__item mslwidget__item--grid">
 				<label for="<?php echo esc_attr( $this->get_field_id( $mslwidget_social_profile->id ) ); ?>">
-					<?php echo esc_html( $mslwidget_social_profile->name ); ?>
+					<?php
+					$mslwidget_placeholder = '';
+
+					if ( 'feed' === $mslwidget_social_profile->url ) {
+						printf(
+							// translators: %s social profile name.
+							esc_html__( 'Feed URL:', 'msl-widget' ),
+							esc_html( $mslwidget_social_profile->name )
+						);
+						$mslwidget_placeholder = __( 'https://www.yourWebsite.com/feed/', 'msl-widget' );
+					} else {
+						printf(
+							// translators: %s social profile name.
+							esc_html__( '%s:', 'msl-widget' ),
+							esc_html( $mslwidget_social_profile->name )
+						);
+
+						if ( 'instance' === $mslwidget_social_profile->url ) {
+							$mslwidget_placeholder = __( '@username@instance.tld', 'msl-widget' );
+						} else {
+							$mslwidget_placeholder = __( 'username', 'msl-widget' );
+						}
+					}
+					?>
 				</label>
 				<input
 					type="text"
@@ -80,11 +103,48 @@ foreach ( $mslwidget_social_profiles_list as $mslwidget_social_profile ) {
 					name="<?php echo esc_attr( $this->get_field_name( $mslwidget_social_profile->id ) ); ?>"
 					id="<?php echo esc_attr( $this->get_field_id( $mslwidget_social_profile->id ) ); ?>"
 					value="<?php echo array_key_exists( $mslwidget_social_profile->id, $mslwidget_fields ) ? esc_attr( $mslwidget_fields[ $mslwidget_social_profile->id ] ) : ''; ?>"
+					placeholder="<?php echo esc_attr( $mslwidget_placeholder ); ?>"
 				/>
 			</li>
 			<?php
 		};
 		?>
 		</ul>
+		<div class="mslwidget__help">
+		<p><strong><?php esc_html_e( 'Help:', 'msl-widget' ); ?></strong></p>
+		<p>
+			<?php
+			printf(
+				// translators: %1$s : an opening HTML element. %2$s : a closing HTML element.
+				esc_html__( 'If it is not an instance, %1$susername%2$s matches the last part of the URL.', 'msl-widget' ),
+				'<code>',
+				'</code>'
+			);
+			?>
+		</p>
+		<ul>
+			<li>
+				<?php
+				printf(
+					'https://www.facebook.com/%1$s%2$s%3$s',
+					'<strong><code>',
+					esc_html__( 'username', 'msl-widget' ),
+					'</code></strong>'
+				);
+				?>
+			</li>
+			<li>
+				<?php
+				printf(
+					'https://viadeo.journaldunet.com/p/%1$s%2$s-%3$s%4$s',
+					'<strong><code>',
+					esc_html__( 'username', 'msl-widget' ),
+					esc_html__( 'numberSequence', 'msl-widget' ),
+					'</code></strong>'
+				);
+				?>
+			</li>
+		</ul>
+		</div>
 	</fieldset>
 </div>

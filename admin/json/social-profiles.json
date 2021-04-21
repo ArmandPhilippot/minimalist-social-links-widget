@@ -1,62 +1,77 @@
 [
 	{
 		"id": "diaspora",
-		"name": "Diaspora*"
+		"name": "Diaspora*",
+		"url": "instance"
 	},
 	{
 		"id": "facebook",
-		"name": "Facebook"
+		"name": "Facebook",
+		"url": "https://www.facebook.com/"
 	},
 	{
 		"id": "github",
-		"name": "Github"
+		"name": "Github",
+		"url": "https://github.com/"
 	},
 	{
 		"id": "gitlab",
-		"name": "Gitlab"
+		"name": "Gitlab",
+		"url": "https://gitlab.com/"
 	},
 	{
 		"id": "gog",
-		"name": "GOG"
+		"name": "GOG",
+		"url": "https://www.gog.com/u/"
 	},
 	{
 		"id": "linkedin",
-		"name": "LinkedIn"
+		"name": "LinkedIn",
+		"url": "https://www.linkedin.com/in/"
 	},
 	{
 		"id": "mastodon",
-		"name": "Mastodon"
+		"name": "Mastodon",
+		"url": "instance"
 	},
 	{
 		"id": "peertube",
-		"name": "Peertube"
+		"name": "Peertube",
+		"url": "instance"
 	},
 	{
 		"id": "reddit",
-		"name": "Reddit"
+		"name": "Reddit",
+		"url": "https://www.reddit.com/user/"
 	},
 	{
 		"id": "rss",
-		"name": "Rss"
+		"name": "RSS",
+		"url": "feed"
 	},
 	{
 		"id": "steam",
-		"name": "Steam"
+		"name": "Steam",
+		"url": "https://steamcommunity.com/id/"
 	},
 	{
 		"id": "twitter",
-		"name": "Twitter"
+		"name": "Twitter",
+		"url": "https://twitter.com/"
 	},
 	{
 		"id": "viadeo",
-		"name": "Viadeo"
+		"name": "Viadeo",
+		"url": "https://viadeo.journaldunet.com/p/"
 	},
 	{
 		"id": "vk",
-		"name": "VK"
+		"name": "VK",
+		"url": "https://vk.com/"
 	},
 	{
 		"id": "youtube",
-		"name": "Youtube"
+		"name": "Youtube",
+		"url": "https://www.youtube.com/c/"
 	}
 ]
