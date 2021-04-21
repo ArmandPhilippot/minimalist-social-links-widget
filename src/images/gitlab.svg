@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -9,18 +7,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="600"
-   height="600"
-   viewBox="0 0 158.74999 158.75"
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14"
-   sodipodi:docname="Gitlab-Square-Grey-Background.svg">
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
+   sodipodi:docname="gitlab.svg">
   <defs
-     id="defs2">
-    <style
-       id="style923">.cls-1{fill:#fc6d26;}.cls-2{fill:#e24329;}.cls-3{fill:#fca326;}</style>
-  </defs>
+     id="defs2" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -28,22 +23,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-271.21105"
-     inkscape:cy="235.49585"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:zoom="1.4"
+     inkscape:cx="-10.950061"
+     inkscape:cy="60.203051"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
      showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
+     units="px"
      inkscape:window-width="1920"
-     inkscape:window-height="1024"
+     inkscape:window-height="1019"
      inkscape:window-x="0"
-     inkscape:window-y="28"
-     inkscape:window-maximized="1"
-     units="px" />
+     inkscape:window-y="33"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -52,102 +44,54 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
+     inkscape:label="Calque 1"
      inkscape:groupmode="layer"
-     id="layer2"
-     inkscape:label="Background">
-    <rect
-       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.87046629;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect989"
-       width="158.75"
-       height="158.75"
-       x="-2.3092639e-14"
-       y="0" />
-  </g>
-  <g
-     inkscape:label="Logo"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-49.835304,-52.391606)">
+     id="layer1">
     <g
-       id="g967"
-       transform="matrix(0.39188485,0,0,0.39188485,14.388968,22.233163)">
-      <g
-         id="g44">
-        <path
-           d="M 461.17,301.83 442.26,243.71 404.84,128.43 a 6.47,6.47 0 0 0 -12.27,0 L 355.15,243.64 H 230.82 L 193.4,128.43 a 6.46,6.46 0 0 0 -12.26,0 l -37.36,115.21 -18.91,58.19 a 12.88,12.88 0 0 0 4.66,14.39 L 293,435 456.44,316.22 a 12.9,12.9 0 0 0 4.73,-14.39"
-           class="cls-1"
-           id="path46"
-           inkscape:connector-curvature="0"
-           style="fill:#fc6d26" />
-      </g>
-      <g
-         id="g48">
-        <path
-           d="m 293,434.91 v 0 L 355.16,243.63 H 230.87 Z"
-           class="cls-2"
-           id="path50"
-           inkscape:connector-curvature="0"
-           style="fill:#e24329" />
-      </g>
-      <g
-         id="g56">
-        <path
-           d="M 293,434.91 230.82,243.63 h -87 z"
-           class="cls-1"
-           id="path58"
-           inkscape:connector-curvature="0"
-           style="fill:#fc6d26" />
-      </g>
-      <g
-         id="g64">
-        <path
-           d="m 143.75,243.69 v 0 l -18.91,58.12 a 12.88,12.88 0 0 0 4.66,14.39 L 293,435 Z"
-           class="cls-3"
-           id="path66"
-           inkscape:connector-curvature="0"
-           style="fill:#fca326" />
-      </g>
-      <g
-         id="g72">
-        <path
-           d="m 143.78,243.69 h 87.11 L 193.4,128.49 a 6.47,6.47 0 0 0 -12.27,0 z"
-           class="cls-2"
-           id="path74"
-           inkscape:connector-curvature="0"
-           style="fill:#e24329" />
-      </g>
-      <g
-         id="g76">
-        <path
-           d="M 293,434.91 355.16,243.63 H 442.3 Z"
-           class="cls-1"
-           id="path78"
-           inkscape:connector-curvature="0"
-           style="fill:#fc6d26" />
-      </g>
-      <g
-         id="g80">
-        <path
-           d="m 442.24,243.69 v 0 l 18.91,58.12 a 12.85,12.85 0 0 1 -4.66,14.39 L 293,434.91 442.2,243.69 Z"
-           class="cls-3"
-           id="path82"
-           inkscape:connector-curvature="0"
-           style="fill:#fca326" />
-      </g>
-      <g
-         id="g84">
-        <path
-           d="m 442.28,243.69 h -87.1 l 37.42,-115.2 a 6.46,6.46 0 0 1 12.26,0 z"
-           class="cls-2"
-           id="path86"
-           inkscape:connector-curvature="0"
-           style="fill:#e24329" />
-      </g>
+       id="g930"
+       transform="matrix(0.29618741,0,0,0.29618741,35.825318,31.382505)">
+      <path
+         id="path50_2_"
+         class="st3"
+         d="m 47.84514,218.34027 v 0 l 62.199,-191.322 h -124.307 z"
+         style="fill:#e24329" />
+      <path
+         id="path66_6_"
+         class="st4"
+         d="m -101.38286,27.01927 v 0 l -18.941,58.126 c -1.714,5.278 0.137,11.104 4.661,14.394 l 163.509,118.801 z"
+         style="fill:#fca326" />
+      <path
+         id="path74_2_"
+         class="st3"
+         d="m -101.38286,27.01927 h 87.12 l -37.494,-115.224 c -1.919,-5.895 -10.282,-5.895 -12.27,0 z"
+         style="fill:#e24329" />
+      <path
+         id="path82_6_"
+         class="st4"
+         d="m 197.16514,27.01927 v 0 l 18.873,58.126 c 1.714,5.278 -0.137,11.104 -4.661,14.394 l -163.532,118.801 z"
+         style="fill:#fca326" />
+      <path
+         id="path86_2_"
+         class="st3"
+         d="m 197.16514,27.01927 h -87.12 l 37.425,-115.224 c 1.919,-5.895 10.282,-5.895 12.27,0 z"
+         style="fill:#e24329" />
+      <polygon
+         class="st5"
+         points="293.026,434.983 355.225,243.662 442.346,243.662 "
+         id="polygon9"
+         style="fill:#fc6d26"
+         transform="translate(-245.18086,-216.64273)" />
+      <polygon
+         class="st5"
+         points="293.026,434.983 143.798,243.662 230.918,243.662 "
+         id="polygon11"
+         style="fill:#fc6d26"
+         transform="translate(-245.18086,-216.64273)" />
     </g>
   </g>
 </svg>

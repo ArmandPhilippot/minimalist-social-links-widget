@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -9,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="132.29167mm"
-   height="132.29167mm"
-   viewBox="0 0 132.29167 132.29167"
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
    version="1.1"
    id="svg8"
-   sodipodi:docname="LinkedIn-Square-Blue-Background.svg"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14">
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
+   sodipodi:docname="linkedin.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,20 +23,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="173.78978"
-     inkscape:cy="164.50371"
-     inkscape:document-units="mm"
+     inkscape:zoom="1.4"
+     inkscape:cx="-10.950061"
+     inkscape:cy="60.203051"
+     inkscape:document-units="px"
      inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
      showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
+     units="px"
      inkscape:window-width="1920"
-     inkscape:window-height="1024"
+     inkscape:window-height="1019"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="33"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -48,21 +44,31 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(127.25583,30.827798)">
+     id="layer1">
     <path
-       inkscape:connector-curvature="0"
-       style="fill:#0a66c2;stroke-width:2.04185653"
+       id="Path_2525"
+       data-name="Path 2525"
+       d="m 95.093609,87.175833 a 1.5660779,1.5660779 0 0 0 1.57913,-1.65613 c 0,-1.17456 -0.70865,-1.73573 -2.1625,-1.73573 h -2.34911 v 6.14946 h 0.88353 v -2.6806 h 1.08581 l 0.0248,0.0326 1.68484,2.64798 h 0.94486 l -1.81273,-2.74063 z m -1.02187,-0.61599 h -1.02447 v -2.07897 h 1.29854 c 0.6708,0 1.43557,0.10963 1.43557,0.98793 0,1.01012 -0.77391,1.09104 -1.71486,1.09104"
+       fill="#0a66c2"
+       style="stroke-width:1.30506" />
+    <path
        id="Path_2520"
        data-name="Path 2520"
-       d="M -14.537096,81.89365 H -34.138583 V 51.195851 c 0,-7.320189 -0.130419,-16.74352 -10.194856,-16.74352 -10.209056,0 -11.771079,7.975634 -11.771079,16.210581 V 81.891613 H -75.706004 V 18.764472 h 18.817427 v 8.626998 h 0.263153 c 3.836985,-6.560704 10.97139,-10.479146 18.566312,-10.197208 19.866956,0 23.529964,13.068107 23.529964,30.068901 z M -97.822963,10.135438 c -10.134757,0.0019 -15.210677,-12.2500722 -8.046497,-19.4171115 7.164172,-7.1670395 19.417554,-2.0954115 19.419372,8.0396914 0.0011,6.2824208 -5.090671,11.3762541 -11.372875,11.3774201 m 9.800743,71.758212 h -19.62194 V 18.764472 h 19.62194 z M -4.7649065,-30.818792 -127.25583,-30.82779 V 101.46388 H 5.0358367 l 0,-132.29167"
-       sodipodi:nodetypes="ccsssccccccccccssccccccccccc" />
+       d="M 72.046109,79.469421 H 59.517485 V 59.849075 c 0,-4.678658 -0.08352,-10.701532 -6.516189,-10.701532 -6.525325,0 -7.523699,5.097583 -7.523699,10.36091 V 79.468116 H 32.948973 V 39.120729 h 12.027479 v 5.513899 h 0.168353 a 13.181156,13.181156 0 0 1 11.866956,-6.517494 c 12.698281,0 15.039568,8.352415 15.039568,19.218386 z M 18.81251,33.605524 a 7.2705167,7.2705167 0 1 1 7.269212,-7.271822 7.2705167,7.2705167 0 0 1 -7.269212,7.271822 m 6.264312,45.863897 H 12.535148 V 39.120729 H 25.076822 Z M 78.292149,7.4298373 H 6.239514 A 6.170347,6.170347 0 0 0 -9.5e-7,13.52449 v 72.351493 a 6.1742622,6.1742622 0 0 0 6.23951495,6.10118 h 72.052635 a 6.1873128,6.1873128 0 0 0 6.26431,-6.10118 V 13.51927 a 6.1833976,6.1833976 0 0 0 -6.26431,-6.0946527"
+       fill="#0a66c2"
+       style="stroke-width:1.30506" />
+    <path
+       id="Path_2526"
+       data-name="Path 2526"
+       d="m 94.178759,81.044633 a 5.7657769,5.7657769 0 1 0 0.11093,0 h -0.11093 m 0,10.87119 a 5.0558215,5.0558215 0 1 1 4.97099,-5.13934 c 0,0.0287 0,0.0561 0,0.0848 a 4.9475012,4.9475012 0 0 1 -4.83918,5.0519 h -0.13051"
+       fill="#0a66c2"
+       style="stroke-width:1.30506" />
   </g>
 </svg>

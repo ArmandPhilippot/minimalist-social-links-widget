@@ -1,22 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#1DA1F2;}
-	.st1{fill:#FFFFFF;}
-</style>
-<g id="Dark_Blue">
-	<rect class="st0" width="400" height="400"/>
-</g>
-<g id="Logo__x2014__FIXED">
-	<path class="st1" d="M153.6,301.6c94.3,0,145.9-78.2,145.9-145.9c0-2.2,0-4.4-0.1-6.6c10-7.2,18.7-16.3,25.6-26.6
-		c-9.2,4.1-19.1,6.8-29.5,8.1c10.6-6.3,18.7-16.4,22.6-28.4c-9.9,5.9-20.9,10.1-32.6,12.4c-9.4-10-22.7-16.2-37.4-16.2
-		c-28.3,0-51.3,23-51.3,51.3c0,4,0.5,7.9,1.3,11.7c-42.6-2.1-80.4-22.6-105.7-53.6c-4.4,7.6-6.9,16.4-6.9,25.8
-		c0,17.8,9.1,33.5,22.8,42.7c-8.4-0.3-16.3-2.6-23.2-6.4c0,0.2,0,0.4,0,0.7c0,24.8,17.7,45.6,41.1,50.3c-4.3,1.2-8.8,1.8-13.5,1.8
-		c-3.3,0-6.5-0.3-9.6-0.9c6.5,20.4,25.5,35.2,47.9,35.6c-17.6,13.8-39.7,22-63.7,22c-4.1,0-8.2-0.2-12.2-0.7
-		C97.7,293.1,124.7,301.6,153.6,301.6"/>
-</g>
-<g id="Annotations">
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
+   sodipodi:docname="twitter.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="-10.950061"
+     inkscape:cy="60.203051"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="white_background"
+       class="st0"
+       d="m 89.762339,29.600369 c 0.06094,0.881576 0.06094,1.763153 0.06094,2.652854 0,27.109486 -20.637824,58.374976 -58.374976,58.374976 v -0.01625 C 20.300629,90.628199 9.384522,87.435025 0,81.414306 c 1.620963,0.195003 3.250051,0.292504 4.883201,0.296567 9.238269,0.0081 18.212472,-3.091611 25.480398,-8.799513 -8.7792,-0.166565 -16.477757,-5.890718 -19.167174,-14.247411 3.07536,0.593134 6.24416,0.471257 9.262644,-0.353443 C 10.88767,56.376726 4.001625,47.967219 4.001625,38.200817 c 0,-0.08938 0,-0.17469 0,-0.260004 2.85192,1.588462 6.045094,2.470038 9.311395,2.56754 C 4.298192,34.483571 1.519399,22.490884 6.963234,13.114488 c 10.416412,12.817387 25.78509,20.609384 42.28316,21.434084 -1.653463,-7.125736 0.605322,-14.592727 5.935405,-19.601868 8.263254,-7.7676209 21.259396,-7.3694899 29.027017,0.889701 4.594759,-0.905951 8.998578,-2.591915 13.028641,-4.980703 -1.531587,4.749137 -4.736949,8.783263 -9.018891,11.34674 C 92.285192,21.72306 96.258379,20.634293 100,18.972704 97.245582,23.100269 93.776153,26.695637 89.76234,29.60037 Z"
+       style="fill:#1d9bf0;stroke-width:0.406256" />
+  </g>
 </svg>
