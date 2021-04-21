@@ -92,6 +92,7 @@ foreach ( $mslwidget_social_profiles_list as $mslwidget_social_profile ) {
 						if ( 'instance' === $mslwidget_social_profile->url ) {
 							$mslwidget_placeholder = __( '@username@instance.tld', 'msl-widget' );
 						} else {
+							// translators: username as a placeholder.
 							$mslwidget_placeholder = __( 'username', 'msl-widget' );
 						}
 					}
@@ -128,6 +129,7 @@ foreach ( $mslwidget_social_profiles_list as $mslwidget_social_profile ) {
 				printf(
 					'https://www.facebook.com/%1$s%2$s%3$s',
 					'<strong><code>',
+					// translators: username inside an URL.
 					esc_html__( 'username', 'msl-widget' ),
 					'</code></strong>'
 				);
@@ -138,7 +140,9 @@ foreach ( $mslwidget_social_profiles_list as $mslwidget_social_profile ) {
 				printf(
 					'https://viadeo.journaldunet.com/p/%1$s%2$s-%3$s%4$s',
 					'<strong><code>',
+					// translators: username inside an URL.
 					esc_html__( 'username', 'msl-widget' ),
+					// translators: numberSequence inside an URL.
 					esc_html__( 'numberSequence', 'msl-widget' ),
 					'</code></strong>'
 				);
