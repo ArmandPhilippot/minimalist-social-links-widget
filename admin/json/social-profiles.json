@@ -1,5 +1,10 @@
 [
 	{
+		"id": "dailymotion",
+		"name": "Dailymotion",
+		"url": "https://www.dailymotion.com/"
+	},
+	{
 		"id": "diaspora",
 		"name": "Diaspora*",
 		"url": "instance"
@@ -25,6 +30,11 @@
 		"url": "https://www.gog.com/u/"
 	},
 	{
+		"id": "instagram",
+		"name": "Instagram",
+		"url": "https://www.instagram.com/"
+	},
+	{
 		"id": "linkedin",
 		"name": "LinkedIn",
 		"url": "https://www.linkedin.com/in/"
@@ -40,6 +50,11 @@
 		"url": "instance"
 	},
 	{
+		"id": "pinterest",
+		"name": "Pinterest",
+		"url": "https://www.pinterest.com/"
+	},
+	{
 		"id": "reddit",
 		"name": "Reddit",
 		"url": "https://www.reddit.com/user/"
@@ -50,9 +65,29 @@
 		"url": "feed"
 	},
 	{
+		"id": "skype",
+		"name": "Skype",
+		"url": "skype"
+	},
+	{
+		"id": "snapchat",
+		"name": "Snapchat",
+		"url": "https://www.snapchat.com/add/"
+	},
+	{
+		"id": "soundcloud",
+		"name": "Soundcloud",
+		"url": "https://soundcloud.com/"
+	},
+	{
 		"id": "steam",
 		"name": "Steam",
 		"url": "https://steamcommunity.com/id/"
+	},
+	{
+		"id": "telegram",
+		"name": "Telegram",
+		"url": "https://t.me/"
 	},
 	{
 		"id": "twitter",
@@ -68,6 +103,11 @@
 		"id": "vk",
 		"name": "VK",
 		"url": "https://vk.com/"
+	},
+	{
+		"id": "whatsapp",
+		"name": "WhatsApp",
+		"url": "https://wa.me/"
 	},
 	{
 		"id": "youtube",

@@ -98,6 +98,10 @@
 	background-image: url("../../assets/images/vk.svg");
 }
 
+.mslwidget__logo--whatsapp {
+	background-image: url("../../assets/images/whatsapp.svg");
+}
+
 .mslwidget__logo--youtube {
 	background-image: url("../../assets/images/youtube.svg");
 }

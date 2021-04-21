@@ -111,6 +111,10 @@ Domain Path: /languages/
 	background-image: url("../../assets/images/vk.svg");
 }
 
+.mslwidget__logo--whatsapp {
+	background-image: url("../../assets/images/whatsapp.svg");
+}
+
 .mslwidget__logo--youtube {
 	background-image: url("../../assets/images/youtube.svg");
 }
@@ -118,7 +122,7 @@ Domain Path: /languages/
 .mslwidget__list {
 	display: flex;
 	flex-flow: row wrap;
-	gap: 0.3em;
+	gap: 0.8em;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -134,7 +138,7 @@ Domain Path: /languages/
 }
 
 .mslwidget__link:hover .mslwidget__logo::before, .mslwidget__link:focus .mslwidget__logo::before {
-	background: #ffffff2a;
+	background: #ffffff3a;
 }
 
 .mslwidget__link:active .mslwidget__logo::before {

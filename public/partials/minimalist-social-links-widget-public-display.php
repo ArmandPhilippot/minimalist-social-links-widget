@@ -42,12 +42,14 @@ if ( ! empty( $mslwidget_title ) ) {
 				}
 			} elseif ( 'feed' === $mslwidget_social_profile->url ) {
 				$mslwidget_profile_link = $mslwidget_user;
+			} elseif ( 'skype' === $mslwidget_social_profile->url ) {
+				$mslwidget_profile_link = 'skype:' . $mslwidget_user . '?userinfo';
 			} else {
 				$mslwidget_profile_link = trailingslashit( $mslwidget_social_profile->url ) . $mslwidget_user;
 			}
 			?>
 			<li class="mslwidget__item">
-				<a href="<?php echo esc_url( $mslwidget_profile_link ); ?>" class="mslwidget__link">
+				<a href="<?php echo 'skype' === $mslwidget_social_profile->url ? esc_attr( $mslwidget_profile_link ) : esc_url( $mslwidget_profile_link ); ?>" class="mslwidget__link">
 					<span class="mslwidget__logo <?php echo esc_attr( 'mslwidget__logo--' . $mslwidget_social_profile->id ); ?>"></span>
 					<span class="mslwidget__name screen-reader-text">
 						<?php echo esc_html( $mslwidget_social_profile->name ); ?>
