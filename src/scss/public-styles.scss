@@ -8,3 +8,124 @@
 // Theme info
 //=============================================================================
 @import "base/widget_info";
+
+.mslwidget {
+	&__list {
+		display: flex;
+		flex-flow: row wrap;
+		gap: 0.5em;
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	&__profile-logo {
+		display: block;
+		width: 3em;
+		height: 3em;
+		background-size: cover;
+		background-repeat: no-repeat;
+
+		&--dailymotion {
+			background-image: url("../../assets/images/dailymotion.svg");
+		}
+
+		&--diaspora {
+			background-image: url("../../assets/images/diaspora.svg");
+		}
+
+		&--facebook {
+			background-image: url("../../assets/images/facebook.svg");
+		}
+
+		&--github {
+			background-image: url("../../assets/images/github.svg");
+		}
+
+		&--gitlab {
+			background-image: url("../../assets/images/gitlab.svg");
+		}
+
+		&--gog {
+			background-image: url("../../assets/images/gog.svg");
+		}
+
+		&--instagram {
+			background-image: url("../../assets/images/instagram.svg");
+		}
+
+		&--linkedin {
+			background-image: url("../../assets/images/linkedin.svg");
+		}
+
+		&--mastodon {
+			background-image: url("../../assets/images/mastodon.svg");
+		}
+
+		&--peertube {
+			background-image: url("../../assets/images/peertube.svg");
+		}
+
+		&--pinterest {
+			background-image: url("../../assets/images/pinterest.svg");
+		}
+
+		&--reddit {
+			background-image: url("../../assets/images/reddit.svg");
+		}
+
+		&--rss {
+			background-image: url("../../assets/images/rss.svg");
+		}
+
+		&--skype {
+			background-image: url("../../assets/images/skype.svg");
+		}
+
+		&--snapchat {
+			background-image: url("../../assets/images/snapchat.svg");
+		}
+
+		&--soundcloud {
+			background-image: url("../../assets/images/soundcloud.svg");
+		}
+
+		&--steam {
+			background-image: url("../../assets/images/steam.svg");
+		}
+
+		&--telegram {
+			background-image: url("../../assets/images/telegram.svg");
+		}
+
+		&--twitter {
+			background-image: url("../../assets/images/twitter.svg");
+		}
+
+		&--viadeo {
+			background-image: url("../../assets/images/viadeo.svg");
+		}
+
+		&--vk {
+			background-image: url("../../assets/images/vk.svg");
+		}
+
+		&--youtube {
+			background-image: url("../../assets/images/youtube.svg");
+		}
+	}
+
+	/* Text meant only for screen readers. */
+	.screen-reader-text {
+		border: 0;
+		clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+		clip: rect(1px, 1px, 1px, 1px);
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+		padding: 0;
+		position: absolute !important;
+		word-break: normal;
+		word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+	}
+}

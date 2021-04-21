@@ -20,7 +20,7 @@ msgstr ""
 msgid "Display social links as a WordPress Widget."
 msgstr ""
 
-#: class-minimalist-social-links-widget.php:65, public/partials/minimalist-social-links-widget-public-display.php:17
+#: class-minimalist-social-links-widget.php:65
 msgid "Minimalist Social Links"
 msgstr ""
 
@@ -32,6 +32,40 @@ msgstr ""
 msgid "Choose the profiles you want to display:"
 msgstr ""
 
-#: admin/partials/minimalist-social-links-widget-admin-display.php:61
-msgid "Enter your profile link for each selected websites:"
+#: admin/partials/minimalist-social-links-widget-admin-display.php:68
+msgid "Enter your username for each selected websites:"
+msgstr ""
+
+#. translators: %s social profile name.
+#: admin/partials/minimalist-social-links-widget-admin-display.php:88
+msgid "%s:"
+msgstr ""
+
+#: admin/partials/minimalist-social-links-widget-admin-display.php:95, admin/partials/minimalist-social-links-widget-admin-display.php:131, admin/partials/minimalist-social-links-widget-admin-display.php:141
+msgid "username"
+msgstr ""
+
+#: admin/partials/minimalist-social-links-widget-admin-display.php:93
+msgid "@username@instance.tld"
+msgstr ""
+
+#: admin/partials/minimalist-social-links-widget-admin-display.php:81
+msgid "Feed URL:"
+msgstr ""
+
+#: admin/partials/minimalist-social-links-widget-admin-display.php:84
+msgid "https://www.yourWebsite.com/feed/"
+msgstr ""
+
+#: admin/partials/minimalist-social-links-widget-admin-display.php:114
+msgid "Help:"
+msgstr ""
+
+#. translators: %1$s : an opening HTML element. %2$s : a closing HTML element.
+#: admin/partials/minimalist-social-links-widget-admin-display.php:119
+msgid "If it is not an instance, %1$susername%2$s matches the last part of the URL."
+msgstr ""
+
+#: admin/partials/minimalist-social-links-widget-admin-display.php:142
+msgid "numberSequence"
 msgstr ""
