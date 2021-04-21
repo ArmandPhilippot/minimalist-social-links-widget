@@ -29,11 +29,11 @@ if ( ! empty( $mslwidget_title ) ) {
 	<?php
 	foreach ( $mslwidget_social_profiles as $mslwidget_social_profile ) {
 		if ( array_key_exists( $mslwidget_social_profile->id, $mslwidget_selected_social_profiles ) && $mslwidget_selected_social_profiles[ $mslwidget_social_profile->id ] ) {
-			$mslwidget_username = $instance[ $mslwidget_social_profile->id ] ? $instance[ $mslwidget_social_profile->id ] : '';
+			$mslwidget_user = $instance[ $mslwidget_social_profile->id ] ? $instance[ $mslwidget_social_profile->id ] : '';
 
 			if ( 'instance' === $mslwidget_social_profile->url ) {
-				$mslwidget_instance_name = substr( strrchr( $mslwidget_username, '@' ), 1 );
-				$mslwidget_username      = substr( $mslwidget_username, 0, strrpos( $mslwidget_username, '@' ) );
+				$mslwidget_instance_name = substr( strrchr( $mslwidget_user, '@' ), 1 );
+				$mslwidget_username      = substr( $mslwidget_user, 0, strrpos( $mslwidget_user, '@' ) );
 
 				if ( '' !== $mslwidget_instance_name && '' !== $mslwidget_username ) {
 					$mslwidget_profile_link = 'https://' . trailingslashit( $mslwidget_instance_name ) . $mslwidget_username;
@@ -41,15 +41,15 @@ if ( ! empty( $mslwidget_title ) ) {
 					$mslwidget_profile_link = '';
 				}
 			} elseif ( 'feed' === $mslwidget_social_profile->url ) {
-				$mslwidget_profile_link = $mslwidget_username;
+				$mslwidget_profile_link = $mslwidget_user;
 			} else {
-				$mslwidget_profile_link = trailingslashit( $mslwidget_social_profile->url ) . $mslwidget_username;
+				$mslwidget_profile_link = trailingslashit( $mslwidget_social_profile->url ) . $mslwidget_user;
 			}
 			?>
 			<li class="mslwidget__item">
 				<a href="<?php echo esc_url( $mslwidget_profile_link ); ?>" class="mslwidget__link">
-					<span class="mslwidget__profile-logo <?php echo esc_attr( 'mslwidget__profile-logo--' . $mslwidget_social_profile->id ); ?>"></span>
-					<span class="mslwidget__profile-name screen-reader-text">
+					<span class="mslwidget__logo <?php echo esc_attr( 'mslwidget__logo--' . $mslwidget_social_profile->id ); ?>"></span>
+					<span class="mslwidget__name screen-reader-text">
 						<?php echo esc_html( $mslwidget_social_profile->name ); ?>
 					</span>
 				</a>
