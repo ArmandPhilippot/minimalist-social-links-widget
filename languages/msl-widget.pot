@@ -66,7 +66,7 @@ msgstr ""
 
 #. translators: %1$s : an opening HTML element. %2$s : a closing HTML element.
 #: admin/partials/minimalist-social-links-widget-admin-display.php:120
-msgid "If it is not an instance, %1$susername%2$s matches the last part of the URL."
+msgid "%1$susername%2$s matches the last part of the URL."
 msgstr ""
 
 #. translators: numberSequence inside an URL.

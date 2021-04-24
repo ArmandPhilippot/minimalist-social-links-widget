@@ -117,7 +117,7 @@ foreach ( $mslwidget_social_profiles_list as $mslwidget_social_profile ) {
 			<?php
 			printf(
 				// translators: %1$s : an opening HTML element. %2$s : a closing HTML element.
-				esc_html__( 'If it is not an instance, %1$susername%2$s matches the last part of the URL.', 'msl-widget' ),
+				esc_html__( '%1$susername%2$s matches the last part of the URL.', 'msl-widget' ),
 				'<code>',
 				'</code>'
 			);
