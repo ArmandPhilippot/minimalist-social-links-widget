@@ -44,7 +44,7 @@ msgstr ""
 #. translators: username as a placeholder.
 #. translators: username inside an URL.
 #. translators: username inside an URL.
-#: admin/partials/minimalist-social-links-widget-admin-display.php:96, admin/partials/minimalist-social-links-widget-admin-display.php:133, admin/partials/minimalist-social-links-widget-admin-display.php:144
+#: admin/partials/minimalist-social-links-widget-admin-display.php:96, admin/partials/minimalist-social-links-widget-admin-display.php:133, admin/partials/minimalist-social-links-widget-admin-display.php:144, admin/partials/minimalist-social-links-widget-admin-display.php:159, admin/partials/minimalist-social-links-widget-admin-display.php:169
 msgid "username"
 msgstr ""
 
@@ -72,4 +72,8 @@ msgstr ""
 #. translators: numberSequence inside an URL.
 #: admin/partials/minimalist-social-links-widget-admin-display.php:146
 msgid "numberSequence"
+msgstr ""
+
+#: admin/partials/minimalist-social-links-widget-admin-display.php:152
+msgid "For some instances, the first @ is not needed. For example:"
 msgstr ""

@@ -36,7 +36,11 @@ if ( ! empty( $mslwidget_title ) ) {
 				$mslwidget_username      = substr( $mslwidget_user, 0, strrpos( $mslwidget_user, '@' ) );
 
 				if ( '' !== $mslwidget_instance_name && '' !== $mslwidget_username ) {
-					$mslwidget_profile_link = 'https://' . trailingslashit( $mslwidget_instance_name ) . $mslwidget_username;
+					if ( 'diaspora' === $mslwidget_social_profile->id ) {
+						$mslwidget_profile_link = 'https://' . trailingslashit( $mslwidget_instance_name ) . 'u/' . $mslwidget_username;
+					} else {
+						$mslwidget_profile_link = 'https://' . trailingslashit( $mslwidget_instance_name ) . $mslwidget_username;
+					}
 				} else {
 					$mslwidget_profile_link = '';
 				}

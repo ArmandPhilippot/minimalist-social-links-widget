@@ -149,6 +149,29 @@ foreach ( $mslwidget_social_profiles_list as $mslwidget_social_profile ) {
 				?>
 			</li>
 		</ul>
+		<p><?php esc_html_e( 'For some instances, the first @ is not needed. For example:', 'msl-widget' ); ?></p>
+		<ul>
+			<li>
+				<?php
+				printf(
+					'https://framasphere.org/%1$s%2$s%3$s',
+					'<strong><code>',
+					esc_html__( 'username', 'msl-widget' ),
+					'</code></strong>'
+				);
+				?>
+			</li>
+			<li>
+				<?php
+				printf(
+					'https://mamot.fr/%1$s@%2$s%3$s',
+					'<strong><code>',
+					esc_html__( 'username', 'msl-widget' ),
+					'</code></strong>'
+				);
+				?>
+			</li>
+		</ul>
 		</div>
 	</fieldset>
 </div>

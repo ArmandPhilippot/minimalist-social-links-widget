@@ -54,7 +54,9 @@ msgstr "%s :"
 #. translators: username inside an URL.
 #: admin/partials/minimalist-social-links-widget-admin-display.php:96,
 #: admin/partials/minimalist-social-links-widget-admin-display.php:133,
-#: admin/partials/minimalist-social-links-widget-admin-display.php:144
+#: admin/partials/minimalist-social-links-widget-admin-display.php:144,
+#: admin/partials/minimalist-social-links-widget-admin-display.php:159,
+#: admin/partials/minimalist-social-links-widget-admin-display.php:169
 msgid "username"
 msgstr "nomUtillisateur"
 
@@ -83,3 +85,8 @@ msgstr "%1$snomUtilisateur%2$s correspond à la dernière partie de l'URL."
 #: admin/partials/minimalist-social-links-widget-admin-display.php:146
 msgid "numberSequence"
 msgstr "sequenceDeChiffres"
+
+#: admin/partials/minimalist-social-links-widget-admin-display.php:152
+msgid "For some instances, the first @ is not needed. For example:"
+msgstr ""
+"Pour certaines instances, le premier @ n'est pas nécessaire. Par exemple :"
