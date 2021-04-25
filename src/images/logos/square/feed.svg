@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"
+   sodipodi:docname="feed.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       x1="30.06"
+       y1="30.06"
+       x2="225.94001"
+       y2="225.94001"
+       id="RSSg"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(0.390625)">
+      <stop
+         offset="0.0"
+         stop-color="#E3702D"
+         id="stop2" />
+      <stop
+         offset="0.1071"
+         stop-color="#EA7D31"
+         id="stop4" />
+      <stop
+         offset="0.3503"
+         stop-color="#F69537"
+         id="stop6" />
+      <stop
+         offset="0.5"
+         stop-color="#FB9E3A"
+         id="stop8" />
+      <stop
+         offset="0.7016"
+         stop-color="#EA7C31"
+         id="stop10" />
+      <stop
+         offset="0.8866"
+         stop-color="#DE642B"
+         id="stop12" />
+      <stop
+         offset="1.0"
+         stop-color="#D95B29"
+         id="stop14" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#RSSg"
+       id="linearGradient900"
+       x1="-105.22823"
+       y1="8.0972509"
+       x2="-26.978149"
+       y2="86.347336"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(116.10488,3.6603541)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="60.940498"
+     inkscape:cy="95.914536"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1019"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:#cc5d15;fill-opacity:1;stroke-width:17.3998"
+       id="rect844"
+       width="100"
+       height="100"
+       x="0"
+       y="0" />
+    <rect
+       style="fill:#f49c52;fill-opacity:1;stroke-width:16.7202"
+       id="rect844-3"
+       width="96.094002"
+       height="96.094002"
+       x="1.9529877"
+       y="1.9529991" />
+    <rect
+       style="fill:url(#linearGradient900);fill-opacity:1;stroke-width:16.0406"
+       id="rect844-3-6"
+       width="92.188004"
+       height="92.188004"
+       x="3.905983"
+       y="3.9059982" />
+    <circle
+       cx="24.600004"
+       cy="75.399994"
+       r="9.5999994"
+       fill="#ffffff"
+       id="circle25-7"
+       style="stroke-width:0.4" />
+    <path
+       d="M 61.400002,85 H 47.800003 A 32.799999,32.799999 0 0 0 14.999997,52.200001 v -13.6 A 46.399999,46.399999 0 0 1 61.400002,85 Z"
+       fill="#ffffff"
+       id="path27-5"
+       style="stroke-width:0.4" />
+    <path
+       d="M 71.000002,85 A 55.999999,55.999999 0 0 0 14.999997,29.000001 V 15 a 69.999999,69.999999 0 0 1 70.000006,70 z"
+       fill="#ffffff"
+       id="path29-3"
+       style="stroke-width:0.4" />
+  </g>
+</svg>

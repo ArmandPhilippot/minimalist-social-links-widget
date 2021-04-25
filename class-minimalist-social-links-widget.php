@@ -228,9 +228,10 @@ class Minimalist_Social_Links_Widget extends \WP_Widget {
 	 * @return array Updated settings to save.
 	 */
 	public function update( $new_instance, $old_instance ) {
-		$social_profiles   = $this->mslwidget_get_social_profiles();
-		$instance          = $old_instance;
-		$instance['title'] = sanitize_text_field( $new_instance['title'] );
+		$social_profiles         = $this->mslwidget_get_social_profiles();
+		$instance                = $old_instance;
+		$instance['title']       = sanitize_text_field( $new_instance['title'] );
+		$instance['logo_format'] = sanitize_text_field( $new_instance['logo_format'] );
 
 		foreach ( $social_profiles as $social_profile ) {
 			$instance['selected_social_profiles'][ $social_profile->id ] = ( ! empty( $new_instance['selected_social_profiles'][ $social_profile->id ] ) ? 1 : 0 );

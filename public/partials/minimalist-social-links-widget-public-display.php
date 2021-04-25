@@ -14,8 +14,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-$mslwidget_title = ! empty( $instance['title'] ) ? $instance['title'] : '';
-$mslwidget_title = apply_filters( 'widget_title', $mslwidget_title, $instance, $this->id_base );
+$mslwidget_title       = ! empty( $instance['title'] ) ? $instance['title'] : '';
+$mslwidget_title       = apply_filters( 'widget_title', $mslwidget_title, $instance, $this->id_base );
+$mslwidget_logo_format = ! empty( $instance['logo_format'] ) ? $instance['logo_format'] : 'original';
 
 $mslwidget_selected_social_profiles = ! empty( $instance['selected_social_profiles'] ) ? $instance['selected_social_profiles'] : array();
 $mslwidget_social_profiles          = $this->mslwidget_get_social_profiles();
@@ -54,7 +55,7 @@ if ( ! empty( $mslwidget_title ) ) {
 			?>
 			<li class="mslwidget__item">
 				<a href="<?php echo 'skype' === $mslwidget_social_profile->url ? esc_attr( $mslwidget_profile_link ) : esc_url( $mslwidget_profile_link ); ?>" class="mslwidget__link">
-					<span class="mslwidget__logo <?php echo esc_attr( 'mslwidget__logo--' . $mslwidget_social_profile->id ); ?>"></span>
+					<span class="mslwidget__logo <?php echo 'mslwidget__logo--' . esc_attr( $mslwidget_logo_format ) . esc_attr( ' mslwidget__logo--' . $mslwidget_social_profile->id ); ?>"></span>
 					<span class="mslwidget__name screen-reader-text">
 						<?php echo esc_html( $mslwidget_social_profile->name ); ?>
 					</span>

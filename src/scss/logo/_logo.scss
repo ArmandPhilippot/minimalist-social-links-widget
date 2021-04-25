@@ -11,95 +11,195 @@
 		height: 3em;
 	}
 
-	&--dailymotion {
-		background-image: url("../../assets/images/dailymotion.svg");
+	&--original {
+		&.mslwidget__logo {
+			&--dailymotion {
+				background-image: url("../../assets/images/logos/original/dailymotion.svg");
+			}
+
+			&--diaspora {
+				background-image: url("../../assets/images/logos/original/diaspora.svg");
+			}
+
+			&--facebook {
+				background-image: url("../../assets/images/logos/original/facebook.svg");
+			}
+
+			&--github {
+				background-image: url("../../assets/images/logos/original/github.svg");
+			}
+
+			&--gitlab {
+				background-image: url("../../assets/images/logos/original/gitlab.svg");
+			}
+
+			&--gog {
+				background-image: url("../../assets/images/logos/original/gog.svg");
+			}
+
+			&--instagram {
+				background-image: url("../../assets/images/logos/original/instagram.svg");
+			}
+
+			&--linkedin {
+				background-image: url("../../assets/images/logos/original/linkedin.svg");
+			}
+
+			&--mastodon {
+				background-image: url("../../assets/images/logos/original/mastodon.svg");
+			}
+
+			&--peertube {
+				background-image: url("../../assets/images/logos/original/peertube.svg");
+			}
+
+			&--pinterest {
+				background-image: url("../../assets/images/logos/original/pinterest.svg");
+			}
+
+			&--reddit {
+				background-image: url("../../assets/images/logos/original/reddit.svg");
+			}
+
+			&--rss {
+				background-image: url("../../assets/images/logos/original/feed.svg");
+			}
+
+			&--skype {
+				background-image: url("../../assets/images/logos/original/skype.svg");
+			}
+
+			&--snapchat {
+				background-image: url("../../assets/images/logos/original/snapchat.svg");
+			}
+
+			&--soundcloud {
+				background-image: url("../../assets/images/logos/original/soundcloud.svg");
+			}
+
+			&--steam {
+				background-image: url("../../assets/images/logos/original/steam.svg");
+			}
+
+			&--telegram {
+				background-image: url("../../assets/images/logos/original/telegram.svg");
+			}
+
+			&--twitter {
+				background-image: url("../../assets/images/logos/original/twitter.svg");
+			}
+
+			&--viadeo {
+				background-image: url("../../assets/images/logos/original/viadeo.svg");
+			}
+
+			&--vk {
+				background-image: url("../../assets/images/logos/original/vk.svg");
+			}
+
+			&--whatsapp {
+				background-image: url("../../assets/images/logos/original/whatsapp.svg");
+			}
+
+			&--youtube {
+				background-image: url("../../assets/images/logos/original/youtube.svg");
+			}
+		}
 	}
 
-	&--diaspora {
-		background-image: url("../../assets/images/diaspora.svg");
-	}
+	&--square {
+		&.mslwidget__logo {
+			&--dailymotion {
+				background-image: url("../../assets/images/logos/square/dailymotion.svg");
+			}
 
-	&--facebook {
-		background-image: url("../../assets/images/facebook.svg");
-	}
+			&--diaspora {
+				background-image: url("../../assets/images/logos/square/diaspora.svg");
+			}
 
-	&--github {
-		background-image: url("../../assets/images/github.svg");
-	}
+			&--facebook {
+				background-image: url("../../assets/images/logos/square/facebook.svg");
+			}
 
-	&--gitlab {
-		background-image: url("../../assets/images/gitlab.svg");
-	}
+			&--github {
+				background-image: url("../../assets/images/logos/square/github.svg");
+			}
 
-	&--gog {
-		background-image: url("../../assets/images/gog.svg");
-	}
+			&--gitlab {
+				background-image: url("../../assets/images/logos/square/gitlab.svg");
+			}
 
-	&--instagram {
-		background-image: url("../../assets/images/instagram.svg");
-	}
+			&--gog {
+				background-image: url("../../assets/images/logos/square/gog.svg");
+			}
 
-	&--linkedin {
-		background-image: url("../../assets/images/linkedin.svg");
-	}
+			&--instagram {
+				background-image: url("../../assets/images/logos/square/instagram.svg");
+			}
 
-	&--mastodon {
-		background-image: url("../../assets/images/mastodon.svg");
-	}
+			&--linkedin {
+				background-image: url("../../assets/images/logos/square/linkedin.svg");
+			}
 
-	&--peertube {
-		background-image: url("../../assets/images/peertube.svg");
-	}
+			&--mastodon {
+				background-image: url("../../assets/images/logos/square/mastodon.svg");
+			}
 
-	&--pinterest {
-		background-image: url("../../assets/images/pinterest.svg");
-	}
+			&--peertube {
+				background-image: url("../../assets/images/logos/square/peertube.svg");
+			}
 
-	&--reddit {
-		background-image: url("../../assets/images/reddit.svg");
-	}
+			&--pinterest {
+				background-image: url("../../assets/images/logos/square/pinterest.svg");
+			}
 
-	&--rss {
-		background-image: url("../../assets/images/feed.svg");
-	}
+			&--reddit {
+				background-image: url("../../assets/images/logos/square/reddit.svg");
+			}
 
-	&--skype {
-		background-image: url("../../assets/images/skype.svg");
-	}
+			&--rss {
+				background-image: url("../../assets/images/logos/square/feed.svg");
+			}
 
-	&--snapchat {
-		background-image: url("../../assets/images/snapchat.svg");
-	}
+			&--skype {
+				background-image: url("../../assets/images/logos/square/skype.svg");
+			}
 
-	&--soundcloud {
-		background-image: url("../../assets/images/soundcloud.svg");
-	}
+			&--snapchat {
+				background-image: url("../../assets/images/logos/square/snapchat.svg");
+			}
 
-	&--steam {
-		background-image: url("../../assets/images/steam.svg");
-	}
+			&--soundcloud {
+				background-image: url("../../assets/images/logos/square/soundcloud.svg");
+			}
 
-	&--telegram {
-		background-image: url("../../assets/images/telegram.svg");
-	}
+			&--steam {
+				background-image: url("../../assets/images/logos/square/steam.svg");
+			}
 
-	&--twitter {
-		background-image: url("../../assets/images/twitter.svg");
-	}
+			&--telegram {
+				background-image: url("../../assets/images/logos/square/telegram.svg");
+			}
 
-	&--viadeo {
-		background-image: url("../../assets/images/viadeo.svg");
-	}
+			&--twitter {
+				background-image: url("../../assets/images/logos/square/twitter.svg");
+			}
 
-	&--vk {
-		background-image: url("../../assets/images/vk.svg");
-	}
+			&--viadeo {
+				background-image: url("../../assets/images/logos/square/viadeo.svg");
+			}
 
-	&--whatsapp {
-		background-image: url("../../assets/images/whatsapp.svg");
-	}
+			&--vk {
+				background-image: url("../../assets/images/logos/square/vk.svg");
+			}
 
-	&--youtube {
-		background-image: url("../../assets/images/youtube.svg");
+			&--whatsapp {
+				background-image: url("../../assets/images/logos/square/whatsapp.svg");
+			}
+
+			&--youtube {
+				background-image: url("../../assets/images/logos/square/youtube.svg");
+			}
+		}
 	}
 }
