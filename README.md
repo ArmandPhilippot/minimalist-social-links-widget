@@ -6,11 +6,16 @@ A WordPress widget to display links to your social media profiles (among others)
 
 ## Introduction
 
-It already exists plugins to display links to social media. However, many of them do not respect the brand guidelines. Logos are not up to date. The spacings rules are not respected. Logos are distorted. And so on.
+This widget allows you to display links to your social profiles and RSS feed. The links are displayed as clickable logos.
 
-I'm not saying that this project respects them totally. It's difficult to keep an harmony between the links while the logos have different shapes and spacing rules. But I'm trying to respect these rules. And if you have any ideas for improving the project while respecting the brand rules, I'm all ears.
+Two logo formats are proposed:
 
-I'm probably foolish when the brands themselves don't bother to play by their rules. For example, if you look the Instagram brand guidelines, all other logos are old. Yes, I refer to the Facebook logo for example. Same corporation and yet, the rules are not respected. Even so, I would like this project respect these rules.
+-   `Original`: the original logos that try to respect the branding guidelines.
+-   `Square`: the logos transformed into a square format.
+
+The `Original` format works fine on light themes. However, on dark themes, some logos are hardly visible (Github or Diaspora\* for example). As the widget cannot guess your theme or your mechanism for changing themes, it is difficult to (dynamically) come up with an alternative logo.
+
+The `Square` format works fine on both themes. The background for some logos are still dark, but the logos are readable.
 
 ## Install
 
@@ -47,9 +52,9 @@ You can download this plugin on Github, then extract it in `/wp-content/plugins/
 
 Examples:
 
-| Twenty Nineteen Theme                                                  | Twenty Twelve Theme                                                  |
-| ---------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| ![Public view 1](./assets/images/mslwidget-public-twenty-nineteen.jpg) | ![Public view 2](./assets/images/mslwidget-public-twenty-twelve.jpg) |
+| Original Format                                            | Square Format                                          |
+| ---------------------------------------------------------- | ------------------------------------------------------ |
+| ![Original](./assets/images/mslwidget-original-format.jpg) | ![Square](./assets/images/mslwidget-square-format.jpg) |
 
 ## Disclaimer
 
@@ -57,7 +62,9 @@ I'm not using all these websites, so it is possible that some links are wrong. F
 
 Some logos are not officially available in SVG format (or they are well hidden) so there may be some differences.
 
-If you want to overwrite the sizes of the links on pubic view, remember tu specify a rule for `pointer: fine` media query. The sizes are not the same on touch screens and devices using a mouse.
+The size is not modifiable in the widget admin. But, you can change it in your theme by overriding the default `.mslwidget__logo` width and height.
+
+**Note:** The widget uses a media query `pointer: fine` to display a different size if it is a touch screen or a screen with a pointer device.
 
 ## License
 
