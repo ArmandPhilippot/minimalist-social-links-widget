@@ -16,6 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 $mslwidget_social_profiles_list = $this->mslwidget_get_social_profiles();
 $mslwidget_title                = ! empty( $instance['title'] ) ? $instance['title'] : '';
+$mslwidget_logo_format          = ! empty( $instance['logo_format'] ) ? $instance['logo_format'] : 'original';
 $mslwidget_social_profiles      = ! empty( $instance['selected_social_profiles'] ) ? $instance['selected_social_profiles'] : array();
 $mslwidget_fields               = array();
 
@@ -36,6 +37,17 @@ foreach ( $mslwidget_social_profiles_list as $mslwidget_social_profile ) {
 <div class="mslwidget__settings">
 	<fieldset class="mslwidget__fieldset mslwidget__fieldset--checkboxes">
 		<legend class="mslwidget__legend"><?php esc_html_e( 'Choose the profiles you want to display:', 'msl-widget' ); ?></legend>
+		<p>
+			<label for="<?php echo esc_attr( $this->get_field_id( 'logo_format' ) ); ?>"><?php esc_html_e( 'Select a format:', 'msl-widget' ); ?></label>
+			<select
+				name="<?php echo esc_attr( $this->get_field_name( 'logo_format' ) ); ?>"
+				id="<?php echo esc_attr( $this->get_field_id( 'logo_format' ) ); ?>"
+				class="mslwidget__select-format"
+			>
+				<option value="original" <?php selected( $mslwidget_logo_format, 'original' ); ?>><?php esc_html_e( 'Original', 'msl-widget' ); ?></option>
+				<option value="square" <?php selected( $mslwidget_logo_format, 'square' ); ?>><?php esc_html_e( 'Square', 'msl-widget' ); ?></option>
+			</select>
+		</p>
 		<ul class="mslwidget__list mslwidget__list--checkboxes">
 		<?php
 		foreach ( $mslwidget_social_profiles_list as $mslwidget_social_profile ) {
@@ -51,7 +63,7 @@ foreach ( $mslwidget_social_profiles_list as $mslwidget_social_profile ) {
 				/>
 				<label
 					for="<?php echo esc_attr( $this->get_field_id( 'select_' . $mslwidget_social_profile->id ) ); ?>"
-					class="mslwidget__label mslwidget__logo <?php echo 'mslwidget__logo--' . esc_attr( $mslwidget_social_profile->id ); ?>"
+					class="mslwidget__label mslwidget__logo <?php echo 'mslwidget__logo--' . esc_attr( $mslwidget_logo_format ) . ' mslwidget__logo--' . esc_attr( $mslwidget_social_profile->id ); ?>"
 					title="<?php echo esc_attr( $mslwidget_social_profile->name ); ?>"
 				>
 					<span class="screen-reader-text">
@@ -123,55 +135,55 @@ foreach ( $mslwidget_social_profiles_list as $mslwidget_social_profile ) {
 			);
 			?>
 		</p>
-		<ul>
-			<li>
-				<?php
-				printf(
-					'https://www.facebook.com/%1$s%2$s%3$s',
-					'<strong><code>',
-					// translators: username inside an URL.
-					esc_html__( 'username', 'msl-widget' ),
-					'</code></strong>'
-				);
-				?>
-			</li>
-			<li>
-				<?php
-				printf(
-					'https://viadeo.journaldunet.com/p/%1$s%2$s-%3$s%4$s',
-					'<strong><code>',
-					// translators: username inside an URL.
-					esc_html__( 'username', 'msl-widget' ),
-					// translators: numberSequence inside an URL.
-					esc_html__( 'numberSequence', 'msl-widget' ),
-					'</code></strong>'
-				);
-				?>
-			</li>
-		</ul>
-		<p><?php esc_html_e( 'For some instances, the first @ is not needed. For example:', 'msl-widget' ); ?></p>
-		<ul>
-			<li>
-				<?php
-				printf(
-					'https://framasphere.org/%1$s%2$s%3$s',
-					'<strong><code>',
-					esc_html__( 'username', 'msl-widget' ),
-					'</code></strong>'
-				);
-				?>
-			</li>
-			<li>
-				<?php
-				printf(
-					'https://mamot.fr/%1$s@%2$s%3$s',
-					'<strong><code>',
-					esc_html__( 'username', 'msl-widget' ),
-					'</code></strong>'
-				);
-				?>
-			</li>
-		</ul>
+			<ul>
+				<li>
+					<?php
+					printf(
+						'https://www.facebook.com/%1$s%2$s%3$s',
+						'<strong><code>',
+						// translators: username inside an URL.
+						esc_html__( 'username', 'msl-widget' ),
+						'</code></strong>'
+					);
+					?>
+				</li>
+				<li>
+					<?php
+					printf(
+						'https://viadeo.journaldunet.com/p/%1$s%2$s-%3$s%4$s',
+						'<strong><code>',
+						// translators: username inside an URL.
+						esc_html__( 'username', 'msl-widget' ),
+						// translators: numberSequence inside an URL.
+						esc_html__( 'numberSequence', 'msl-widget' ),
+						'</code></strong>'
+					);
+					?>
+				</li>
+			</ul>
+			<p><?php esc_html_e( 'For some instances, the first @ is not needed. For example:', 'msl-widget' ); ?></p>
+			<ul>
+				<li>
+					<?php
+					printf(
+						'https://framasphere.org/%1$s%2$s%3$s',
+						'<strong><code>',
+						esc_html__( 'username', 'msl-widget' ),
+						'</code></strong>'
+					);
+					?>
+				</li>
+				<li>
+					<?php
+					printf(
+						'https://mamot.fr/%1$s@%2$s%3$s',
+						'<strong><code>',
+						esc_html__( 'username', 'msl-widget' ),
+						'</code></strong>'
+					);
+					?>
+				</li>
+			</ul>
 		</div>
 	</fieldset>
 </div>
