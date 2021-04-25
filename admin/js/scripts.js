@@ -122,6 +122,27 @@ var initVisibleInputs = function initVisibleInputs(inputs, checkboxes) {
   }
 };
 /**
+ * Change displayed logo format.
+ * @param {HTMLCollection} labels A collection of label element.
+ * @param {string} format The desired logo format.
+ */
+
+
+var changeLogoFormat = function changeLogoFormat(labels, format) {
+  for (var i = 0; i < labels.length; i++) {
+    var label = labels[i];
+    console.log(label.classList);
+
+    if ('square' === format) {
+      label.classList.replace('mslwidget__logo--original', 'mslwidget__logo--square');
+    } else {
+      label.classList.replace('mslwidget__logo--square', 'mslwidget__logo--original');
+    }
+
+    console.log(label.classList);
+  }
+};
+/**
  * Define initial state of MSL widget settings.
  */
 
@@ -133,13 +154,15 @@ var initWidgetSettings = function initWidgetSettings() {
     var checkboxes = widgetSettings[i].getElementsByClassName('mslwidget__checkbox');
     var inputs = widgetSettings[i].getElementsByClassName('mslwidget__input');
     var inputFieldset = widgetSettings[i].getElementsByClassName('mslwidget__fieldset--inputs');
+    var logoLabels = widgetSettings[i].getElementsByClassName('mslwidget__logo');
+    var logoSelects = widgetSettings[i].getElementsByClassName('mslwidget__select-format');
     initVisibleInputs(inputs, checkboxes);
 
     var _loop2 = function _loop2(j) {
       setFieldsetVisibility(inputFieldset[j], checkboxes);
 
-      for (var k = 0; k < checkboxes.length; k++) {
-        checkboxes[k].addEventListener('click', function (event) {
+      for (var _k = 0; _k < checkboxes.length; _k++) {
+        checkboxes[_k].addEventListener('click', function (event) {
           return handleChecked(event.target, inputFieldset[j], checkboxes);
         });
       }
@@ -147,6 +170,14 @@ var initWidgetSettings = function initWidgetSettings() {
 
     for (var j = 0; j < inputFieldset.length; j++) {
       _loop2(j);
+    }
+
+    for (var k = 0; k < logoSelects.length; k++) {
+      var select = logoSelects[k];
+      select.addEventListener('change', function (event) {
+        var format = event.target.value;
+        changeLogoFormat(logoLabels, format);
+      });
     }
   };
 

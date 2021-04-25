@@ -107,6 +107,33 @@ const initVisibleInputs = (inputs, checkboxes) => {
 };
 
 /**
+ * Change displayed logo format.
+ * @param {HTMLCollection} labels A collection of label element.
+ * @param {string} format The desired logo format.
+ */
+const changeLogoFormat = (labels, format) => {
+	for (let i = 0; i < labels.length; i++) {
+		const label = labels[i];
+
+		console.log(label.classList);
+
+		if ('square' === format) {
+			label.classList.replace(
+				'mslwidget__logo--original',
+				'mslwidget__logo--square'
+			);
+		} else {
+			label.classList.replace(
+				'mslwidget__logo--square',
+				'mslwidget__logo--original'
+			);
+		}
+
+		console.log(label.classList);
+	}
+};
+
+/**
  * Define initial state of MSL widget settings.
  */
 const initWidgetSettings = () => {
@@ -124,6 +151,12 @@ const initWidgetSettings = () => {
 		const inputFieldset = widgetSettings[i].getElementsByClassName(
 			'mslwidget__fieldset--inputs'
 		);
+		const logoLabels = widgetSettings[i].getElementsByClassName(
+			'mslwidget__logo'
+		);
+		const logoSelects = widgetSettings[i].getElementsByClassName(
+			'mslwidget__select-format'
+		);
 
 		initVisibleInputs(inputs, checkboxes);
 
@@ -134,6 +167,15 @@ const initWidgetSettings = () => {
 					handleChecked(event.target, inputFieldset[j], checkboxes)
 				);
 			}
+		}
+
+		for (let k = 0; k < logoSelects.length; k++) {
+			const select = logoSelects[k];
+
+			select.addEventListener('change', event => {
+				const format = event.target.value;
+				changeLogoFormat(logoLabels, format);
+			});
 		}
 	}
 };
