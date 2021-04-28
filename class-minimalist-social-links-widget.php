@@ -191,6 +191,8 @@ class Minimalist_Social_Links_Widget extends \WP_Widget {
 			$social_profiles      = json_decode( $social_profiles_body );
 
 			return $social_profiles;
+		} else {
+			return array();
 		}
 	}
 

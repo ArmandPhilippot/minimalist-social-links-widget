@@ -48,6 +48,11 @@ foreach ( $mslwidget_social_profiles_list as $mslwidget_social_profile ) {
 				<option value="square" <?php selected( $mslwidget_logo_format, 'square' ); ?>><?php esc_html_e( 'Square', 'msl-widget' ); ?></option>
 			</select>
 		</p>
+		<?php
+		if ( empty( $mslwidget_social_profiles_list ) ) {
+			echo '<p>' . esc_html__( 'Error: the social networks list could not read.', 'msl-widget' ) . '</p>';
+		}
+		?>
 		<ul class="mslwidget__list mslwidget__list--checkboxes">
 		<?php
 		foreach ( $mslwidget_social_profiles_list as $mslwidget_social_profile ) {
