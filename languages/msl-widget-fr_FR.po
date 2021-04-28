@@ -32,61 +32,77 @@ msgstr ""
 msgid "Minimalist Social Links"
 msgstr "Minimalist Social Links"
 
-#: admin/partials/minimalist-social-links-widget-admin-display.php:29
+#: admin/partials/minimalist-social-links-widget-admin-display.php:30
 msgid "Title:"
 msgstr "Titre :"
 
-#: admin/partials/minimalist-social-links-widget-admin-display.php:38
+#: admin/partials/minimalist-social-links-widget-admin-display.php:39
 msgid "Choose the profiles you want to display:"
 msgstr "Choisissez les profiles à afficher :"
 
-#: admin/partials/minimalist-social-links-widget-admin-display.php:68
+#: admin/partials/minimalist-social-links-widget-admin-display.php:41
+msgid "Select a format:"
+msgstr "Sélectionnez un format :"
+
+#: admin/partials/minimalist-social-links-widget-admin-display.php:47
+msgid "Original"
+msgstr "Original"
+
+#: admin/partials/minimalist-social-links-widget-admin-display.php:48
+msgid "Square"
+msgstr "Carré"
+
+#: admin/partials/minimalist-social-links-widget-admin-display.php:53
+msgid "Error: the social networks list could not read."
+msgstr "Erreur : la liste des réseaux sociaux n'a pas pu être lue."
+
+#: admin/partials/minimalist-social-links-widget-admin-display.php:85
 msgid "Enter your username for each selected websites:"
 msgstr "Saisissez votre nom d'utilisateur pour chacun des sites sélectionnés :"
 
 #. translators: %s social profile name.
-#: admin/partials/minimalist-social-links-widget-admin-display.php:88
+#: admin/partials/minimalist-social-links-widget-admin-display.php:105
 msgid "%s:"
 msgstr "%s :"
 
 #. translators: username as a placeholder.
 #. translators: username inside an URL.
 #. translators: username inside an URL.
-#: admin/partials/minimalist-social-links-widget-admin-display.php:96,
-#: admin/partials/minimalist-social-links-widget-admin-display.php:133,
-#: admin/partials/minimalist-social-links-widget-admin-display.php:144,
-#: admin/partials/minimalist-social-links-widget-admin-display.php:159,
-#: admin/partials/minimalist-social-links-widget-admin-display.php:169
+#: admin/partials/minimalist-social-links-widget-admin-display.php:113,
+#: admin/partials/minimalist-social-links-widget-admin-display.php:150,
+#: admin/partials/minimalist-social-links-widget-admin-display.php:161,
+#: admin/partials/minimalist-social-links-widget-admin-display.php:176,
+#: admin/partials/minimalist-social-links-widget-admin-display.php:186
 msgid "username"
 msgstr "nomUtillisateur"
 
-#: admin/partials/minimalist-social-links-widget-admin-display.php:93
+#: admin/partials/minimalist-social-links-widget-admin-display.php:110
 msgid "@username@instance.tld"
 msgstr "@nomUtilisateur@instance.tld"
 
-#: admin/partials/minimalist-social-links-widget-admin-display.php:81
+#: admin/partials/minimalist-social-links-widget-admin-display.php:98
 msgid "Feed URL:"
 msgstr "URL du Flux :"
 
-#: admin/partials/minimalist-social-links-widget-admin-display.php:84
+#: admin/partials/minimalist-social-links-widget-admin-display.php:101
 msgid "https://www.yourWebsite.com/feed/"
 msgstr "https://www.votreSite.com/flux/"
 
-#: admin/partials/minimalist-social-links-widget-admin-display.php:115
+#: admin/partials/minimalist-social-links-widget-admin-display.php:132
 msgid "Help:"
 msgstr "Aide :"
 
 #. translators: %1$s : an opening HTML element. %2$s : a closing HTML element.
-#: admin/partials/minimalist-social-links-widget-admin-display.php:120
+#: admin/partials/minimalist-social-links-widget-admin-display.php:137
 msgid "%1$susername%2$s matches the last part of the URL."
 msgstr "%1$snomUtilisateur%2$s correspond à la dernière partie de l'URL."
 
 #. translators: numberSequence inside an URL.
-#: admin/partials/minimalist-social-links-widget-admin-display.php:146
+#: admin/partials/minimalist-social-links-widget-admin-display.php:163
 msgid "numberSequence"
 msgstr "sequenceDeChiffres"
 
-#: admin/partials/minimalist-social-links-widget-admin-display.php:152
+#: admin/partials/minimalist-social-links-widget-admin-display.php:169
 msgid "For some instances, the first @ is not needed. For example:"
 msgstr ""
 "Pour certaines instances, le premier @ n'est pas nécessaire. Par exemple :"
