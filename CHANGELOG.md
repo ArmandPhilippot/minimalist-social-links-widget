@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/ArmandPhilippot/minimalist-social-links-widget/compare/v1.0.0...v1.0.1) (2021-04-28)
+
+
+### Bug Fixes
+
+* display an error message if the social profile list is not fetched ([d8e5904](https://github.com/ArmandPhilippot/minimalist-social-links-widget/commit/d8e59043db0dc1c011428bb1f8dd709e0cddae86))
+
 ## [1.0.0](https://github.com/ArmandPhilippot/minimalist-social-links-widget/compare/v0.0.1...v1.0.0) (2021-04-25)
 
 
